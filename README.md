@@ -29,6 +29,8 @@ Este laboratório permitiu consolidar os fundamentos de gestão de acessos e con
 ## 🏗️ Laboratório 2 – Arquitetura com Bastion Host e Segmentação de Rede
 Neste laboratório, o objetivo foi criar uma infraestrutura segura e segmentada, seguindo padrões reais de arquitetura cloud: subnets públicas e privadas, Bastion Host, NAT Gateway, e controle de acessos refinado.
 
+<img width="820" height="523" alt="image" src="https://github.com/user-attachments/assets/f7a21a3c-8855-4806-8cad-64163b0d25d7" />
+
 ### Componentes criados:
 - **VPC personalizada** com CIDR 10.0.0.0/16;
 - **Public Subnet** (10.0.1.0/24) para alojar o Bastion Host;
@@ -51,6 +53,9 @@ Este laboratório foi essencial para praticar a configuração de ambientes segu
 
 ## 🏗️ Laboratório 3 – Infraestrutura Web Completa com Duas VPCs, WordPress e Base de Dados
 Neste laboratório, o objetivo foi criar uma infraestrutura completa e funcional na AWS para alojamento de uma aplicação WordPress com base de dados MySQL, aplicando boas práticas de segurança, segmentação de rede e acesso controlado através de Bastion Host e VPC Peering.
+
+<img width="619" height="523" alt="image" src="https://github.com/user-attachments/assets/5f42afdb-dbd2-4fe2-9919-1662e0d151d2" />
+
 
 ### Componentes criados:
 - **Duas VPCs separadas** (pública e privada), ligadas entre si por VPC Peering;
