@@ -99,6 +99,9 @@ Este laboratório consolidou os conhecimentos adquiridos, permitindo a construç
 ## 🏗️ Laboratório 4 – Implementação e Configuração Avançada da Infraestrutura AWS
 O presente laboratório 4 dá continuidade ao laboratório 3, mantendo a mesma arquitetura e infraestrutura base implementada previamente. Assim, a infraestrutura fundamental continua a ser composta por duas VPCs (uma pública e outra privada), instâncias EC2 configuradas para o Bastion Host e o servidor WordPress, além da ligação de peering entre as VPCs e as respetivas configurações de Security Groups e Network ACLs para assegurar a segurança e segregação de tráfego.
 
+<img width="684" height="626" alt="image" src="https://github.com/user-attachments/assets/276f5ff8-819b-45ec-8389-7ad7b7365350" />
+
+
 ### Semelhanças com o Laboratório 3
 - **Arquitetura da Rede:** A estrutura de VPCs permanece idêntica, com a VPC pública a albergar o Bastion Host e a VPC privada a conter a instância do WordPress e a base de dados.
 - **Configuração de Peering:** O peering entre as duas VPCs mantém-se ativo, permitindo a comunicação interna segura entre instâncias.
