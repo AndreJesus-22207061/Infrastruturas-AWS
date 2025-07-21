@@ -18,6 +18,9 @@ Este projeto consistiu na execução de uma sequência de laboratórios prático
 ## 🔧 Laboratório 1 – Gestão de Permissões IAM e VPC Inicial
 O primeiro laboratório teve como foco principal a configuração de utilizadores, permissões e políticas de acesso com **IAM**, além da criação da primeira infraestrutura de rede com VPC e subnets.
 
+<img width="924" height="288" alt="image" src="https://github.com/user-attachments/assets/3e1f871d-f475-4ce8-8774-21c0e715ed95" />
+
+
 ### Principais tarefas:
 - Criação de **User Groups** (Alunos e Professores) com políticas específicas e restritas por tags e regiões;
 - Criação de **IAM Roles** para instâncias EC2 com permissões para interagir com S3, Lambda e Translate;
