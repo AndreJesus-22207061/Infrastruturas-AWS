@@ -95,3 +95,23 @@ Neste laboratório, o objetivo foi criar uma infraestrutura completa e funcional
 - Validação das regras de segurança com Network ACLs e Security Groups aplicadas corretamente;
 
 Este laboratório consolidou os conhecimentos adquiridos, permitindo a construção de uma arquitetura realista e segura para aplicações web distribuídas em cloud, com segmentação de serviços, isolamento da base de dados e acesso controlado, conforme as boas práticas de segurança em ambientes AWS.
+
+## 🏗️ Laboratório 4 – Implementação e Configuração Avançada da Infraestrutura AWS
+O presente laboratório 4 dá continuidade ao laboratório 3, mantendo a mesma arquitetura e infraestrutura base implementada previamente. Assim, a infraestrutura fundamental continua a ser composta por duas VPCs (uma pública e outra privada), instâncias EC2 configuradas para o Bastion Host e o servidor WordPress, além da ligação de peering entre as VPCs e as respetivas configurações de Security Groups e Network ACLs para assegurar a segurança e segregação de tráfego.
+
+### Semelhanças com o Laboratório 3
+- **Arquitetura da Rede:** A estrutura de VPCs permanece idêntica, com a VPC pública a albergar o Bastion Host e a VPC privada a conter a instância do WordPress e a base de dados.
+- **Configuração de Peering:** O peering entre as duas VPCs mantém-se ativo, permitindo a comunicação interna segura entre instâncias.
+- **Segurança:** As regras de Security Groups e NACLs continuam configuradas para garantir o acesso restrito e adequado às instâncias.
+
+### Diferenças e Novidades do Laboratório 4
+Apesar de manter a base do laboratório anterior, neste laboratório 4 foram introduzidas diversas melhorias e componentes adicionais que visam otimizar a segurança, disponibilidade e gestão do ambiente:
+
+- **Implementação do Banco de Dados RDS:**
+Em vez de alojar a base de dados numa instância EC2 dentro da VPC privada, a base de dados foi migrada para um serviço gerido AWS RDS, melhorando a escalabilidade, backups automáticos e a manutenção simplificada.
+
+- **Configuração Avançada do Bastion Host:**
+O Bastion Host foi configurado com regras adicionais para restringir ainda mais os IPs autorizados a aceder, reforçando a segurança do ponto de entrada para a VPC privada.
+
+- **Automação e Script de Provisionamento:**
+Foram introduzidos scripts de automação para a instalação e configuração dos serviços (WordPress, PHP, Nginx) nas instâncias EC2, tornando o processo mais repetível e menos propenso a erros manuais.
