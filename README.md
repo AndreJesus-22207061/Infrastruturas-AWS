@@ -2,7 +2,11 @@
 
 Projeto no âmbito da unidade curricular de Sistemas de Informação na Nuvem
 
-Autor: Tomás Nave
+## 👨‍💻 Alunos
+
+- **André Jesus** – a22207061
+- **Tomás Nave** – a22208623
+
 Ano Letivo: 2024/2025
 Curso: Engenharia Informática
 
